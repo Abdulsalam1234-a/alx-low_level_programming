@@ -7,13 +7,12 @@
 /**
  * main - check if number is greater
  * than 1
- * @n: The number to be checked 
- * Return: 1 if the number is positive. 0 otherwise 
+ * @n: variable 
+ * Return: 1 if the number is ++
  */
 int main(void)
 {
 		int n;
-
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 					/* your code goes there */
