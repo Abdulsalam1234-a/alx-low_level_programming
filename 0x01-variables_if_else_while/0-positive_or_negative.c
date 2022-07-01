@@ -4,6 +4,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - check if number is greater
+ * than 1
+ * @n: The number to be checked 
+ * Return: 1 if the number is positive. 0 otherwise 
+ */
 int main(void)
 {
 		int n;
@@ -13,12 +19,11 @@ int main(void)
 					/* your code goes there */
 	
 		if (n > 0)
-			printf("is positive\n");
+			printf("%d is positive\n", n);
 		else if (n < 0)
-			printf("is negative\n");
+			printf("%d is negative\n", n);
 		else
-			printf("is zero\n");
-
+			printf("%d is zero\n", n);
 		return (0);
 }
 
