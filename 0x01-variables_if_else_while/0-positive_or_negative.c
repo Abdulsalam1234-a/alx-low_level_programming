@@ -5,8 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - check if number is greater
- * than 1
+ * main - check if number is greater than 1
  * @n: variable 
  * Return: 1 if the number is ++
  */
