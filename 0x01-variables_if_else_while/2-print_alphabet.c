@@ -2,7 +2,8 @@
 /**
  *  * main - Entry point
  *   * Return: 0 - always
- *    */
+ *
+ */
 int main(void)
 {
 	char alpha = 'a';
@@ -14,3 +15,4 @@ int main(void)
 	putchar(10);
 	return (0);
 }
+
