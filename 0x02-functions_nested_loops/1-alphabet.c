@@ -21,7 +21,7 @@ void print_alphabet(void)
 	int c;
 
 	for(c='a'; c<='z'; c++)
-		putchar(c);
+		_putchar(c);
 	return (0);
 }
 
