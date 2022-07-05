@@ -1,28 +1,17 @@
 #include "main.h" 
-
 /**
- * main - check the code
+ * print_alphabet - function to print abc
  *
- * Return: nothing 
-*/
-int main(void)
-{
-	void print_alphabet(void);
-	return (0);
-}
-
-/**
- * print_alphabet - prints a-z
- *
- * Return 0 success 
+ * Return: 0
 */
 void print_alphabet(void)
 {
+	char c;
 
-	char c='a';
-
-	while(c<='z')
+	for (c = 'a'; c <= 'z'; c++)
+	{
 		_putchar(c);
-		c++;
+	}
+	_putchar('\n');
 }
 
