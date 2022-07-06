@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h" 
+#include "main.h"
 /**
  * jack_bauer - function to get hours and minutes
  *
@@ -8,7 +8,7 @@
 void jack_bauer(void)
 {
 	int hours = 0;
-	int minutes= 0;
+	int minutes = 0;
 	int hours_remainder;
 	int mins_remainder;
 
