@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isalpha - check if it's alpha 
- * @c: variable to print 
+ * _isalpha - check if it's alpha
+ * @c: variable to print
  * Return: 0 if else
 */
 int _isalpha(int c)
