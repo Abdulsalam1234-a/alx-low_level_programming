@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _ans- check for the absolute of a number
+ * _abs- check for the absolute of a number
  * @c: parameter to be checked
  * Return: 0
 */
