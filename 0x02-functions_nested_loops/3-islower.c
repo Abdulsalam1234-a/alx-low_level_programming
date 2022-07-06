@@ -1,8 +1,8 @@
-#include "main.h" 
+#include "main.h"
 /**
  * _islower - check if it's lower
  * @c: variable to use
- * Return 0
+ * Return: 0 if else
 */
 int _islower(int c)
 {
