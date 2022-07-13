@@ -16,7 +16,7 @@ int _atoi(char *s)
 	neg = 1;
 	num = 0;
 
-	while (s[len] >= '0' && s[len] <= '9')
+	while (s[len] != '\0')
 	{
 		if (s[len] >= '0' && s[len] <= '9')
 		{
