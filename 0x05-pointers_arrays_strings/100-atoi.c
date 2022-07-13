@@ -32,7 +32,7 @@ int _atoi(char *s)
 	}
 	for (; x <= len; x++)
 	{
-		if (s[x] == '_')
+		if (s[x] == '-')
 			neg *= -1;
 		else if (s[x] <= '9' && s[x] >= '0')
 		{
