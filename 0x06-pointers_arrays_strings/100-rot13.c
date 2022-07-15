@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *rot13 - a function to decode
+ * rot13 - a function to decode
  * @s: parame to check
  * Return: parameter
  */
